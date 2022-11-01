@@ -1,0 +1,103 @@
+body{
+    background-color: #2d3f50;
+}
+
+.container{
+    margin: 100px 400px;
+}
+
+.tabMenus{
+    position: relative;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    background-color: #da4353;
+    cursor: pointer;
+    padding: 10px 20px;
+    user-select: none;
+    transition: all 1s ease-in-out;
+}
+
+.slider{
+    height: 5px;
+    background-color: #46bfc4;
+    transition: all 1s ease-in-out;
+
+}
+
+.container .home,.container .services,.container .aboutUs,.container .contactUs,.container .login{
+    display: none;
+}
+
+.container .home h1,.container .services h1,.container .aboutUs h1,.container .contactUs h1 , .container .login h1{
+   text-align: center;
+   margin-top: 50px;
+   color: #3c4fe0;
+   font-size: 50px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .home p,.container .services p,.container .aboutUs p,.container .contactUs p, .container .login p{
+    text-align: justify;
+    margin-top: 50px;
+    color: #46bfc4;
+    line-height: 20px;
+ }
+ 
+ /* CSS */
+ .button-29 {
+   align-items: center;
+   appearance: none;
+   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+   border: 0;
+   border-radius: 6px;
+   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono",monospace;
+   height: 48px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s,transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow,transform;
+   font-size: 18px;
+   margin-left: 250px;
+   margin-top: 50px;
+ }
+ 
+ .button-29:focus {
+   box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+ }
+ 
+ .button-29:hover {
+   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+   transform: translateY(-2px);
+ }
+ 
+ .button-29:active {
+   box-shadow: #3c4fe0 0 3px 7px inset;
+   transform: translateY(2px);
+ }
+
+ 
